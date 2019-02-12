@@ -1,0 +1,74 @@
+<html>
+	<head>
+		<script src="../../lib/jquery-2.1.1.min.js"></script>
+		<link rel="stylesheet" href="../../lib/bootstrap.min.css">
+		<!-- If you are using firefox remove above and uncomment below-->
+		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> --> 
+		<script src="../../lib/bootstrap.min.js" ></script>
+
+		<style type="text/css">
+			.row {
+				margin-bottom: 10px;
+			}
+
+			#addAttachment {
+				margin-top: 5px;
+			}
+		</style>
+	</head>
+
+	<body class="container">
+		<div class="row greeting">
+			<div class="pull-right">
+				Welcome Robert
+				<div class="btn btn-link">Logout<a href="#">
+					<span class="glyphicon glyphicon-log-in"></span>
+				</a>
+				</div>
+			</div>
+		</div>
+		<div class="row tool-bar">
+			<div class="btn-group col-md-6">
+				<div class="btn btn-default">
+					<span class="glyphicon glyphicon-plus"></span>
+					New Message
+				</div>
+				<div class="btn btn-default">
+					<span class="glyphicon glyphicon-user"></span>
+					Contacts
+				</div>
+				<div class="btn btn-default">
+					Settings
+					<span class="glyphicon glyphicon-cog"></span>
+				</div>
+			</div>
+		</div>
+		<div class="row message">
+			<div class="col-md-12">
+				<textarea id="message" class="form-control"></textarea>
+			</div>
+			<div class="col-md-3">
+				<div id="addAttachment" class="btn btn-default">
+					<span class="glyphicon glyphicon-paperclip"></span>
+				</div>
+			</div>
+		</div>
+		<div class="row action-bar">
+			<div class="col-md-6">
+				<div class="btn btn-primary">
+					<span class="glyphicon glyphicon-send"></span>
+					Send
+				</div>
+				<div class="btn btn-default">
+					<span class="glyphicon glyphicon-floppy-disk"></span>
+					Save Draft
+				</div>
+				<div class="btn btn-danger">
+					<span class="glyphicon glyphicon-trash"></span>
+					Delete
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>
