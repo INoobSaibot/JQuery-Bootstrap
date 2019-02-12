@@ -12,6 +12,12 @@
 			#addAttachment {
 				margin-top: 5px;
 			}
+			.white-background {
+				background-color:#ffffff;
+			}
+			.grey-border {
+				border-color:grey;
+			}
 		</style>
 	</head>
 
@@ -19,22 +25,23 @@
 		<div class="row greeting">
 			<div class="pull-right">
 				Welcome Robert
-				<div>
-					Logout
+				<div class="btn btn-link">
+					<a href="">Logout</a>
 				</div>
 			</div>
 		</div>
+
 		<div class="row tool-bar">
-			<div class="col-md-6">
-				<div>
+			<div class="col-md-6 btn-group">
+				<button type="button" class="btn btn-default">
 					New Message
-				</div>
-				<div>
+				</button>
+				<button type="button" class="btn btn-default">
 					Contacts
-				</div>
-				<div>
+				</button>
+				<button type="button" class="btn btn-default">
 					Settings
-				</div>
+				</button>
 			</div>
 		</div>
 		<div class="row message">
@@ -43,21 +50,21 @@
 			</div>
 			<div class="col-md-3">
 				<div id="addAttachment">
-					Add Attachment
+					<button class="btn btn-default">Add Attachment</button>
 				</div>
 			</div>
 		</div>
 		<div class="row action-bar">
 			<div class="col-md-6">
-				<div>
+				<button class="btn btn-primary">
 					Send
-				</div>
-				<div>
+				</button>
+				<button class="btn btn-default">
 					Save Draft
-				</div>
-				<div>
+				</button>
+				<button class="btn btn-danger">
 					Delete
-				</div>
+				</button>
 			</div>
 		</div>
 
